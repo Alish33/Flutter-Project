@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    button {
+        border-radius: 4px;
+        background-color: #5ca1e1;
+        border: none;
+        color: #fff;
+        text-align: center;
+        font-size: 32px;
+        padding: 16px;
+        width: 220px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 36px;
+        box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+    }
+
+    button {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    button:after {
+        content: '»';
+        position: absolute;
+        opacity: 0;
+        top: 14px;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+    button:hover {
+        padding-right: 24px;
+        padding-left: 8px;
+    }
+
+    button:hover:after {
+        opacity: 1;
+        right: 10px;
+    }
+</style>
+
+<body>
+    <!-- <div class="gridP">
+        <div class="grid-item">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto neque ex corrupti
+                nesciunt nihil quaerat aliquam necessitatibus eveniet sed modi quas soluta itaque, adipisci fuga harum,
+                cupiditate tenetur temporibus alias.</p>
+        </div>
+        <div class="grid-item">
+            <p> ipsum dolor sit amet consectetur adipisicing elit. Libero saepe, quam eligendi
+                placeat eius tempora culpa velit error fugit laborum ratione sapiente facilis aliquid voluptatem fugiat
+                itaque quaerat! Hic, quo.</p>
+        </div>
+        <div class="grid-item">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos mollitia soluta inventore
+                consequatur ab officia, accusamus unde tempore, fuga rem suscipit corrupti eveniet nihil. Deleniti culpa
+                sapiente distinctio. Similique, sapiente!</p>
+        </div>
+        <div class="grid-item">Alish Khadka</div>
+        <div class="grid-item">Code is passion and programming is life</div>
+    </div>
+
+    <div class="show">
+        <div class="box1">My name is Alish Khadka</div>
+        <div class="box2">I am a node js developer</div>
+    </div> -->
+
+    <button><span>Hover me!</span></button>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        referrerpolicy="no-referrer"></script>
+    <script src="promise.js"></script>
+    <style>
+        .remove {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="name" id="repeat" style="background-color: blue;">
+        <div class="row test d-flex justify-content-center p-2">
+            <div class="col-md-2">
+                <input type="text" class="form-control" placeholder="Enter product name">
+            </div>
+
+            <div class="col-md-2">
+                <input type="text" class="form-control" placeholder="Enter quantity">
+            </div>
+
+
+            <div class="col-md-2">
+                <input type="text" class="form-control" placeholder="Enter price">
+            </div>
+
+            <div class="icon col-md-2 pt-1">
+                <i class="remove fas fa-minus-circle text-center text-light fs-3"></i>
+            </div>
+        </div>
+
+
+
+        <div class="append-div"></div>
+
+        <div class="icon d-flex justify-content-center p-1">
+            <button class="add btn btn-sm btn-dark" id="hello">Add product</button>
+        </div>
+
+    </div>
+
+
+</body>
+
+<!-- <script>
+    $('.add').on('click', function () {
+        var source = $('.test:first');
+        clone = source.clone();
+        clone.appendTo('.append-div')
+    })
+
+    $('body').on('click', '.remove', function () {
+        let dissappear = $(this).closest('.test').remove();
+    })
+</script> -->
+
+<script>
+    $("#hello").on('click', function () {
+        console.log("Hello world");
+
+    })
+</script>
+
+</html>
